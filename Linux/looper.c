@@ -57,6 +57,9 @@ struct file* file_open(const char* path, int flags, int rights) {
   
   printk(KERN_INFO "looper: opening file");
   
+  int x=5;
+  yippeeeee
+  
   oldfs = get_fs();
   set_fs(get_ds());
   filp = filp_open(path, flags, rights);
